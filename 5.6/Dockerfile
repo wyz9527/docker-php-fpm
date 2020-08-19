@@ -5,7 +5,7 @@ MAINTAINER Mark Hilton <nerd305@gmail.com>
 # Install PHP extensions
 RUN DEBIAN_FRONTEND=noninteractive apt-get update -q && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y \
-        nano openssl libldb-dev libtidy-dev libgmp-dev unixODBC-dev \
+        nano openssl libldb-dev libtidy-dev libgmp-dev \
         libicu-dev \
         libmcrypt-dev \
         libcurl4-openssl-dev \
