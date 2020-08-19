@@ -15,7 +15,6 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update -q && \
         libxslt1-dev \
         libfreetype6-dev \
         libjpeg62-turbo-dev \
-        libpng12-dev \
         zlib1g-dev \
         libgmp3-dev \
         libbz2-dev \
