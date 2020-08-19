@@ -36,7 +36,7 @@ RUN docker-php-ext-configure xsl \
     && docker-php-ext-configure mbstring --enable-mbstring \
     && docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ \
     && docker-php-ext-install gd \
-    && docker-php-ext-install dba ftp calendar ctype dom tokenizer fileinfo gettext posix tidy wddx \
+    && docker-php-ext-install dba calendar ctype dom tokenizer fileinfo gettext posix tidy wddx \
     && docker-php-ext-install exif sockets bz2 zip iconv mcrypt json session \
     && docker-php-ext-install opcache xsl xml xmlreader xmlwriter xmlrpc simplexml \
     && docker-php-ext-install curl bcmath intl pcntl mbstring soap mysqli pdo pdo_mysql \
